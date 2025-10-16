@@ -4,7 +4,7 @@ variable "location" {
   default     = "uksouth"
 }
 
-variable "resource_group_name" {
+variable "rg_name" {
   description = "Name of the resource group"
   type        = string
 }

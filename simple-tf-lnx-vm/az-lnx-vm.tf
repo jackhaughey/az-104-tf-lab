@@ -2,7 +2,7 @@ resource "azurerm_linux_virtual_machine" "test-ubu-1-vm" {
   name                = var.vm_name
   resource_group_name = azurerm_resource_group.ubuntu1-rg.name
   location            = azurerm_resource_group.ubuntu1-rg.location
-  size                = "Standard_B2pts_v2"
+  size                = "Standard_B1s"
   admin_username      = "adminuser"
   network_interface_ids = [
     azurerm_network_interface.test-ubu-1-ni.id,
