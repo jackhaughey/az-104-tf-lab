@@ -9,6 +9,7 @@ This repository is created for **my educational purposes only** as part of my le
 Feel free to explore, adapt, and learn — but use at your own risk.
 
 ## Azure Linux VM Deployment with VNet & Resource Group (Terraform)
+
 This repository provisions a secure, modular Azure Linux VM environment using Terraform. It includes resource group creation, virtual network setup, subnet allocation, and VM deployment with managed disks and NICs.
 
                 ├── az-lnx-vm-dsk.tf         # Managed disk configuration
